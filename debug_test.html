@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug Test - English Learning Extension</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #e74c3c;
+            text-align: center;
+        }
+        .debug-steps {
+            background: #fff3cd;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #ffc107;
+        }
+        .step {
+            margin: 15px 0;
+            padding: 15px;
+            background: white;
+            border-radius: 5px;
+            border-left: 4px solid #e74c3c;
+        }
+        .console-note {
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+            color: #0c5460;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        code {
+            background: #f8f9fa;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: #e83e8c;
+        }
+        .warning {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🐛 DEBUG MODE - Extension Test</h1>
+        
+        <div class="warning">
+            <strong>⚠️ DEBUG AÇIK!</strong><br>
+            Console log'lar eklendi. F12 ile Developer Tools'u açın ve Console sekmesini izleyin.
+        </div>
+
+        <div class="console-note">
+            <strong>📋 Console'da İzlenecek Log'lar:</strong><br>
+            • Import: <code>Import started</code>, <code>Import data parsed</code>, <code>Import completed</code><br>
+            • Quiz: <code>nextQuestion called</code>, <code>loadNextQuestion called</code>, <code>Question loaded successfully</code>
+        </div>
+
+        <div class="debug-steps">
+            <h3>🔍 DEBUG TEST 1 - Import Problemi:</h3>
+            
+            <div class="step">
+                <strong>1.</strong> F12 tuşuna basın ve <strong>Console</strong> sekmesini açın
+            </div>
+            
+            <div class="step">
+                <strong>2.</strong> Extension'ı yenileyin: <code>chrome://extensions/</code> → 🔄
+            </div>
+            
+            <div class="step">
+                <strong>3.</strong> Extension'ı açın → "📚 Kelimelerim" → "📤 Kelime Yükle"
+            </div>
+            
+            <div class="step">
+                <strong>4.</strong> <code>sample_words.json</code> dosyasını seçin
+            </div>
+            
+            <div class="step">
+                <strong>5.</strong> <strong>Console'da şunları kontrol edin:</strong>
+                <ul style="margin-top: 10px;">
+                    <li>✅ <code>Import started, file: sample_words.json</code></li>
+                    <li>✅ <code>Import data parsed: {words: Array(36), ...}</code></li>
+                    <li>✅ <code>Saving data, total words now: X</code></li>
+                    <li>✅ <code>Import completed: X kelime başarıyla içe aktarıldı!</code></li>
+                </ul>
+            </div>
+            
+            <div class="step">
+                <strong>6.</strong> Kelime listesinde kelimeler görünüyor mu kontrol edin
+            </div>
+        </div>
+
+        <div class="debug-steps">
+            <h3>🔍 DEBUG TEST 2 - Quiz Problemi:</h3>
+            
+            <div class="step">
+                <strong>1.</strong> Console'u açık tutun
+            </div>
+            
+            <div class="step">
+                <strong>2.</strong> "🎯 Quiz Başlat" butonuna tıklayın
+            </div>
+            
+            <div class="step">
+                <strong>3.</strong> İlk soruya cevap verin ve "Cevapla" butonuna tıklayın
+            </div>
+            
+            <div class="step">
+                <strong>4.</strong> Feedback göründükten sonra "Sonraki Soru" butonuna tıklayın
+            </div>
+            
+            <div class="step">
+                <strong>5.</strong> <strong>Console'da şunları kontrol edin:</strong>
+                <ul style="margin-top: 10px;">
+                    <li>✅ <code>nextQuestion called, current index: X, total words: Y</code></li>
+                    <li>✅ <code>loadNextQuestion called, index: X+1, total: Y</code></li>
+                    <li>✅ <code>Loading question for word: {english: "...", turkish: "..."}</code></li>
+                    <li>✅ <code>Question loaded successfully</code></li>
+                </ul>
+            </div>
+            
+            <div class="step">
+                <strong>6.</strong> Sonraki soru görünüyor mu kontrol edin
+            </div>
+        </div>
+
+        <div class="debug-steps">
+            <h3>🔍 DEBUG TEST 3 - Enter Tuşu:</h3>
+            
+            <div class="step">
+                <strong>1.</strong> Quiz'de bir soruya cevap yazın
+            </div>
+            
+            <div class="step">
+                <strong>2.</strong> <strong>Enter tuşuna basın</strong> (Cevapla yerine)
+            </div>
+            
+            <div class="step">
+                <strong>3.</strong> Feedback göründükten sonra tekrar <strong>Enter tuşuna basın</strong>
+            </div>
+            
+            <div class="step">
+                <strong>4.</strong> Console'da log'ları kontrol edin ve sonraki soruya geçip geçmediğini test edin
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px; color: #666;">
+            <p><strong>Console log'larını paylaşın!</strong> 🔍</p>
+            <p>Hangi adımda problem oluyor, console'da ne görünüyor?</p>
+        </div>
+    </div>
+</body>
+</html>

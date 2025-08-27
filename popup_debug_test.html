@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Debug Test - English Learning Extension</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 700px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #dc3545;
+            text-align: center;
+        }
+        .critical {
+            background: #f8d7da;
+            border: 3px solid #dc3545;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .test-steps {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .step {
+            margin: 12px 0;
+            padding: 12px;
+            background: white;
+            border-radius: 5px;
+            border-left: 4px solid #dc3545;
+        }
+        .expected-logs {
+            background: #1e1e1e;
+            color: #00ff00;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            margin: 15px 0;
+            white-space: pre;
+        }
+        .problem-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        code {
+            background: #f1f3f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚨 POPUP SCRIPT ÇALIŞMIYOR!</h1>
+        
+        <div class="critical">
+            <h3>⚠️ KRİTİK PROBLEM!</h3>
+            <p>Console'da hiç log görünmüyor = Popup script yüklenmiyor!</p>
+            <p><strong>Extension açılıyor mu? Popup görünüyor mu?</strong></p>
+        </div>
+
+        <div class="test-steps">
+            <h3>🔍 Acil Debug Test:</h3>
+            
+            <div class="step">
+                <strong>1.</strong> F12 → Console açın (ÖNEMLİ!)
+            </div>
+            
+            <div class="step">
+                <strong>2.</strong> Extension'ı yenileyin: <code>chrome://extensions/</code> → 🔄
+            </div>
+            
+            <div class="step">
+                <strong>3.</strong> Extension ikonuna tıklayın
+            </div>
+            
+            <div class="step">
+                <strong>4.</strong> Popup açılıyor mu? Yoksa hiçbir şey olmuyor mu?
+            </div>
+            
+            <div class="step">
+                <strong>5.</strong> Console'da şu log'ları arayın:
+            </div>
+        </div>
+
+        <div class="expected-logs">Beklenen Log'lar (Popup açıldığında):
+
+🚀 POPUP SCRIPT BAŞLADI!
+📄 POPUP SCRIPT SONU - DOMContentLoaded BEKLENİYOR
+📱 DOM YÜKLENDİ - APP OLUŞTURULUYOR
+🏗️ CONSTRUCTOR ÇAĞRILDI!
+🔄 INIT ÇAĞRILIYOR...
+✅ APP OLUŞTURULDU: EnglishLearningApp {...}
+🚀 Extension başlatıldı
+Extension başlatıldı - debug sistemi aktif</div>
+
+        <div class="problem-box">
+            <strong>🚨 Olası Problemler:</strong><br>
+            <strong>1. Extension yüklenmemiş:</strong> İkon görünmüyor<br>
+            <strong>2. Popup açılmıyor:</strong> İkona tıklayınca hiçbir şey olmuyor<br>
+            <strong>3. JavaScript hatası:</strong> Popup açılıyor ama console'da hata var<br>
+            <strong>4. Manifest problemi:</strong> popup.html veya popup.js yüklenmiyor
+        </div>
+
+        <div class="test-steps">
+            <h3>📋 Kontrol Listesi:</h3>
+            
+            <div class="step">
+                <strong>Extension ikonu görünüyor mu?</strong><br>
+                Chrome araç çubuğunda puzzle ikonu var mı?
+            </div>
+            
+            <div class="step">
+                <strong>İkona tıklayınca ne oluyor?</strong><br>
+                • Hiçbir şey olmuyor → Manifest problemi<br>
+                • Boş popup açılıyor → HTML yükleniyor ama JS çalışmıyor<br>
+                • Popup açılıyor ama çalışmıyor → JS hatası
+            </div>
+            
+            <div class="step">
+                <strong>Console'da hata var mı?</strong><br>
+                Kırmızı hata mesajları görünüyor mu?
+            </div>
+            
+            <div class="step">
+                <strong>Popup açıldığında Console'da log var mı?</strong><br>
+                <code>🚀 POPUP SCRIPT BAŞLADI!</code> görünüyor mu?
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px; color: #dc3545; font-weight: bold;">
+            <p>🚨 LÜTFEN DETAYLI BİLDİRİN! 🚨</p>
+            <p>1. Extension ikonu görünüyor mu?</p>
+            <p>2. İkona tıklayınca popup açılıyor mu?</p>
+            <p>3. Console'da hangi log'lar var?</p>
+            <p>4. Console'da hata mesajı var mı?</p>
+        </div>
+    </div>
+</body>
+</html>

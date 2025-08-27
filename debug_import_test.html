@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug Import Test - English Learning Extension</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #6f42c1;
+            text-align: center;
+        }
+        .feature-box {
+            background: #e7e3ff;
+            border: 2px solid #6f42c1;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .test-steps {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .step {
+            margin: 12px 0;
+            padding: 12px;
+            background: white;
+            border-radius: 5px;
+            border-left: 4px solid #6f42c1;
+        }
+        .console-box {
+            background: #1e1e1e;
+            color: #00ff00;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            margin: 15px 0;
+            overflow-x: auto;
+        }
+        .debug-panel-info {
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+            color: #0c5460;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        code {
+            background: #f1f3f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 DEBUG MODE - Import Test</h1>
+        
+        <div class="feature-box">
+            <h3>🆕 Yeni Özellikler:</h3>
+            <ul>
+                <li><strong>📊 Debug Panel:</strong> Arayüzde adım adım işlem takibi</li>
+                <li><strong>🔍 Console Log'ları:</strong> Detaylı teknik bilgiler</li>
+                <li><strong>⚠️ Hata Tespiti:</strong> Hangi adımda problem olduğunu gösterir</li>
+                <li><strong>📈 İlerleme Takibi:</strong> Her aşama için durum bildirimi</li>
+            </ul>
+        </div>
+
+        <div class="debug-panel-info">
+            <strong>🎯 Debug Panel Nasıl Çalışır:</strong><br>
+            • Import başladığında otomatik açılır<br>
+            • Her adım için renkli durum gösterir<br>
+            • Hata durumunda kırmızı mesaj<br>
+            • ✕ butonuyla kapatabilirsiniz
+        </div>
+
+        <div class="test-steps">
+            <h3>📋 Test Adımları:</h3>
+            
+            <div class="step">
+                <strong>1.</strong> F12 tuşuna basın ve <strong>Console</strong> sekmesini açın
+            </div>
+            
+            <div class="step">
+                <strong>2.</strong> Extension'ı yenileyin: <code>chrome://extensions/</code> → 🔄
+            </div>
+            
+            <div class="step">
+                <strong>3.</strong> Extension'ı açın → "📚 Kelimelerim"
+            </div>
+            
+            <div class="step">
+                <strong>4.</strong> "📤 Kelime Yükle" butonuna tıklayın
+            </div>
+            
+            <div class="step">
+                <strong>5.</strong> <code>sample_words.json</code> dosyasını seçin
+            </div>
+            
+            <div class="step">
+                <strong>6.</strong> <strong>Debug Panel'i izleyin:</strong>
+                <ul style="margin-top: 8px;">
+                    <li>🔵 Mavi: Bilgi mesajları</li>
+                    <li>🟢 Yeşil: Başarılı adımlar</li>
+                    <li>🟡 Sarı: Uyarılar</li>
+                    <li>🔴 Kırmızı: Hatalar</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="console-box">
+🔄 Import başlatıldı
+📁 Dosya seçildi: sample_words.json (1234 bytes)
+📖 Dosya okunuyor...
+✅ Dosya okundu, boyut: 5678 karakter
+🔍 JSON parse ediliyor...
+✅ JSON parse edildi
+🔍 Veri formatı kontrol ediliyor...
+✅ Format geçerli, kelime sayısı: 36
+📊 Mevcut kelime sayısı: 0
+🔄 Kelimeler işleniyor...
+📊 İşlem tamamlandı - Eklenen: 36, Atlanan: 0
+💾 Veriler kaydediliyor...
+✅ Veriler kaydedildi
+🔄 Mevcut bölüm: word-list-section
+🔄 Kelime listesi güncelleniyor...
+✅ Kelime listesi güncellendi
+📊 İstatistikler güncelleniyor...
+✅ İstatistikler güncellendi
+✅ Import tamamlandı
+        </div>
+
+        <div class="test-steps">
+            <h3>🔍 Neyi Kontrol Edin:</h3>
+            
+            <div class="step">
+                <strong>Console Log'ları:</strong> Yukarıdaki gibi detaylı log'lar görünmeli
+            </div>
+            
+            <div class="step">
+                <strong>Debug Panel:</strong> Arayüzde adım adım ilerleme göstermeli
+            </div>
+            
+            <div class="step">
+                <strong>Kelime Listesi:</strong> 36 kelime listede görünmeli
+            </div>
+            
+            <div class="step">
+                <strong>Hata Durumu:</strong> Hangi adımda takıldığını görmeli
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px; color: #666;">
+            <p><strong>Console log'larını ve debug panel'i paylaşın!</strong> 🔍</p>
+            <p>Hangi adımda problem oluyor, neler görünüyor?</p>
+        </div>
+    </div>
+</body>
+</html>

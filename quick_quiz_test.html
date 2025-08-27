@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Quiz Test - English Learning Extension</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #dc3545;
+            text-align: center;
+        }
+        .urgent {
+            background: #f8d7da;
+            border: 2px solid #dc3545;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .test-steps {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .step {
+            margin: 10px 0;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+            border-left: 4px solid #dc3545;
+        }
+        .json-box {
+            background: #1e1e1e;
+            color: #00ff00;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            margin: 15px 0;
+            white-space: pre;
+        }
+        .copy-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        code {
+            background: #f1f3f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚨 Quiz Boş Ekran - Acil Test</h1>
+        
+        <div class="urgent">
+            <h3>⚡ Hızlı Test Gerekli!</h3>
+            <p>Quiz'de boş ekran görünüyor. Console log'larına ihtiyacımız var!</p>
+        </div>
+
+        <div class="test-steps">
+            <h3>🔥 Acil Test Adımları:</h3>
+            
+            <div class="step">
+                <strong>1.</strong> F12 → Console açın
+            </div>
+            
+            <div class="step">
+                <strong>2.</strong> Extension yenileyin: <code>chrome://extensions/</code> → 🔄
+            </div>
+            
+            <div class="step">
+                <strong>3.</strong> Aşağıdaki test JSON'unu kopyalayın:
+            </div>
+        </div>
+
+        <div class="json-box" id="test-json">{"words":[{"english":"apple","turkish":"elma"},{"english":"book","turkish":"kitap"},{"english":"water","turkish":"su"}]}</div>
+        <button class="copy-btn" onclick="copyJson()">📋 Kopyala</button>
+
+        <div class="test-steps">
+            <div class="step">
+                <strong>4.</strong> Extension → "📚 Kelimelerim" → "📋 JSON Yapıştır"
+            </div>
+            
+            <div class="step">
+                <strong>5.</strong> JSON'u yapıştır → "✅ İşle ve Ekle"
+            </div>
+            
+            <div class="step">
+                <strong>6.</strong> "🎯 Quiz Başlat" tıkla
+            </div>
+            
+            <div class="step">
+                <strong>7.</strong> Console'da şu log'ları arayın:
+                <ul style="margin-top: 8px;">
+                    <li><code>🎯 Quiz başlatılıyor</code></li>
+                    <li><code>📚 loadNextQuestion çağrıldı</code></li>
+                    <li><code>🔍 UI Durumu - Quiz content görünür mü: block</code></li>
+                </ul>
+            </div>
+            
+            <div class="step">
+                <strong>8.</strong> İlk soru görünüyor mu? Yoksa boş ekran mı?
+            </div>
+            
+            <div class="step">
+                <strong>9.</strong> Cevap yazıp Enter'a basın ve log'ları izleyin
+            </div>
+            
+            <div class="step">
+                <strong>10.</strong> <strong>Console'daki TÜM log'ları kopyalayıp paylaşın!</strong>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px; color: #dc3545; font-weight: bold;">
+            <p>🚨 CONSOLE LOG'LARINI PAYLAŞMALıSıNıZ! 🚨</p>
+            <p>Hangi adımda ne görünüyor, hangi log'lar eksik?</p>
+        </div>
+    </div>
+
+    <script>
+        function copyJson() {
+            const jsonText = document.getElementById('test-json').textContent;
+            navigator.clipboard.writeText(jsonText).then(() => {
+                const btn = event.target;
+                btn.textContent = '✅ Kopyalandı!';
+                setTimeout(() => {
+                    btn.textContent = '📋 Kopyala';
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>

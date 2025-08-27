@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Learning Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 English Learning</h1>
+        </header>
+
+        <!-- Ana Menü -->
+        <div id="main-menu" class="section">
+            <button id="add-word-btn" class="btn btn-primary">📝 Kelime Ekle</button>
+            <button id="start-quiz-btn" class="btn btn-success">🎯 Quiz Başlat</button>
+            <button id="view-words-btn" class="btn btn-info">📚 Kelimelerim</button>
+            <button id="view-stats-btn" class="btn btn-secondary">📊 İstatistikler</button>
+        </div>
+
+        <!-- Kelime Ekleme Bölümü -->
+        <div id="add-word-section" class="section hidden">
+            <h2>Yeni Kelime Ekle</h2>
+            <form id="add-word-form">
+                <div class="form-group">
+                    <label for="english-word">İngilizce Kelime:</label>
+                    <input type="text" id="english-word" placeholder="Örn: apple" required>
+                </div>
+                <div class="form-group">
+                    <label for="turkish-word">Türkçe Karşılığı:</label>
+                    <input type="text" id="turkish-word" placeholder="Örn: elma" required>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Ekle</button>
+                    <button type="button" id="back-to-menu" class="btn btn-secondary">Geri</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Quiz Bölümü -->
+        <div id="quiz-section" class="section hidden">
+            <div id="quiz-header">
+                <h2>Quiz</h2>
+                <div class="score-display">
+                    <span>Doğru: <span id="correct-count">0</span></span>
+                    <span>Yanlış: <span id="wrong-count">0</span></span>
+                </div>
+            </div>
+            
+            <div id="quiz-content">
+                <div class="question-card">
+                    <h3>Bu kelimenin Türkçe karşılığı nedir?</h3>
+                    <div class="english-word" id="quiz-english-word">-</div>
+                    <input type="text" id="quiz-answer" placeholder="Türkçe karşılığını yazın...">
+                    <div class="quiz-actions">
+                        <button id="submit-answer" class="btn btn-primary">Cevapla</button>
+                        <button id="skip-question" class="btn btn-warning">Geç</button>
+                        <button id="end-quiz" class="btn btn-danger">Quiz'i Bitir</button>
+                    </div>
+                </div>
+                
+                <div id="answer-feedback" class="feedback hidden">
+                    <div id="feedback-message"></div>
+                    <button id="next-question" class="btn btn-primary">Sonraki Soru</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kelime Listesi Bölümü -->
+        <div id="word-list-section" class="section hidden">
+            <h2>Kelime Listem</h2>
+            <div id="word-count" class="word-count">Toplam: 0 kelime</div>
+
+            <!-- Import/Export Butonları -->
+            <div class="import-export-actions">
+                <button id="export-words" class="btn btn-info">📥 Kelimeleri İndir</button>
+                <button id="paste-json-btn" class="btn btn-warning">📋 JSON Yapıştır</button>
+            </div>
+
+            <!-- JSON Yapıştırma Alanı -->
+            <div id="paste-json-section" class="paste-json-section hidden">
+                <h4>📋 JSON Verisi Yapıştır</h4>
+                <textarea id="json-textarea" placeholder='JSON verisini buraya yapıştırın...
+Örnek:
+{
+  "words": [
+    {"english": "apple", "turkish": "elma"},
+    {"english": "book", "turkish": "kitap"}
+  ]
+}'></textarea>
+                <div class="paste-actions">
+                    <button id="process-json" class="btn btn-primary">✅ İşle ve Ekle</button>
+                    <button id="cancel-paste" class="btn btn-secondary">❌ İptal</button>
+                    <button id="clear-textarea" class="btn btn-warning">🗑️ Temizle</button>
+                </div>
+            </div>
+
+            <!-- Debug/Bilgilendirme Alanı -->
+            <div id="debug-panel" class="debug-panel hidden">
+                <h4>🔍 İşlem Durumu</h4>
+                <div id="debug-content" class="debug-content">
+                    <div class="debug-step">Hazır...</div>
+                </div>
+                <button id="close-debug" class="btn-close">✕</button>
+            </div>
+
+            <div id="words-container" class="words-container">
+                <!-- Kelimeler buraya dinamik olarak eklenecek -->
+            </div>
+            <button id="back-from-words" class="btn btn-secondary">Geri</button>
+        </div>
+
+        <!-- İstatistikler Bölümü -->
+        <div id="stats-section" class="section hidden">
+            <h2>İstatistiklerim</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" id="total-words">0</div>
+                    <div class="stat-label">Toplam Kelime</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="total-correct">0</div>
+                    <div class="stat-label">Doğru Cevap</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="total-wrong">0</div>
+                    <div class="stat-label">Yanlış Cevap</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="success-rate">0%</div>
+                    <div class="stat-label">Başarı Oranı</div>
+                </div>
+            </div>
+            <button id="reset-stats" class="btn btn-danger">İstatistikleri Sıfırla</button>
+            <button id="back-from-stats" class="btn btn-secondary">Geri</button>
+        </div>
+
+        <!-- Bildirim Alanı -->
+        <div id="notification" class="notification hidden">
+            <span id="notification-message"></span>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

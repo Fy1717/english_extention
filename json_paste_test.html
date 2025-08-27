@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Paste Test - English Learning Extension</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #ffc107;
+            text-align: center;
+        }
+        .feature-box {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .test-steps {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .step {
+            margin: 12px 0;
+            padding: 12px;
+            background: white;
+            border-radius: 5px;
+            border-left: 4px solid #ffc107;
+        }
+        .json-example {
+            background: #1e1e1e;
+            color: #00ff00;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            margin: 15px 0;
+            overflow-x: auto;
+            white-space: pre;
+        }
+        .copy-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        .copy-btn:hover {
+            background: #218838;
+        }
+        .info {
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+            color: #0c5460;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        code {
+            background: #f1f3f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📋 JSON Yapıştır Özelliği - Test</h1>
+        
+        <div class="feature-box">
+            <h3>🆕 Yeni Özellik: JSON Yapıştır</h3>
+            <ul>
+                <li><strong>📋 Kopyala-Yapıştır:</strong> JSON verisini direkt yapıştırabilirsiniz</li>
+                <li><strong>🚀 Daha Hızlı:</strong> Dosya yükleme gerektirmez</li>
+                <li><strong>🔍 Debug Desteği:</strong> Adım adım işlem takibi</li>
+                <li><strong>✅ Aynı Kontroller:</strong> Dosya yükleme ile aynı güvenlik</li>
+            </ul>
+        </div>
+
+        <div class="info">
+            <strong>📋 Nasıl Çalışır:</strong><br>
+            1. "📋 JSON Yapıştır" butonuna tıklayın<br>
+            2. JSON verisini textarea'ya yapıştırın<br>
+            3. "✅ İşle ve Ekle" butonuna tıklayın<br>
+            4. Debug panel'de ilerlemeyi izleyin
+        </div>
+
+        <div class="test-steps">
+            <h3>📋 Test JSON Verisi:</h3>
+            <p>Aşağıdaki JSON verisini kopyalayıp test edebilirsiniz:</p>
+            
+            <div class="json-example" id="test-json">{
+  "words": [
+    {"english": "amazing", "turkish": "şaşırtıcı"},
+    {"english": "brilliant", "turkish": "parlak"},
+    {"english": "creative", "turkish": "yaratıcı"},
+    {"english": "delicious", "turkish": "lezzetli"},
+    {"english": "elegant", "turkish": "zarif"},
+    {"english": "fantastic", "turkish": "fantastik"},
+    {"english": "gorgeous", "turkish": "muhteşem"},
+    {"english": "incredible", "turkish": "inanılmaz"},
+    {"english": "magnificent", "turkish": "görkemli"},
+    {"english": "wonderful", "turkish": "harika"}
+  ],
+  "exportDate": "2024-01-01T00:00:00.000Z",
+  "version": "1.0"
+}</div>
+            <button class="copy-btn" onclick="copyTestJson()">📋 JSON'u Kopyala</button>
+        </div>
+
+        <div class="test-steps">
+            <h3>🧪 Test Adımları:</h3>
+            
+            <div class="step">
+                <strong>1.</strong> Extension'ı yenileyin: <code>chrome://extensions/</code> → 🔄
+            </div>
+            
+            <div class="step">
+                <strong>2.</strong> Extension'ı açın → "📚 Kelimelerim"
+            </div>
+            
+            <div class="step">
+                <strong>3.</strong> "📋 JSON Yapıştır" butonuna tıklayın
+            </div>
+            
+            <div class="step">
+                <strong>4.</strong> Yukarıdaki JSON verisini kopyalayıp textarea'ya yapıştırın
+            </div>
+            
+            <div class="step">
+                <strong>5.</strong> "✅ İşle ve Ekle" butonuna tıklayın
+            </div>
+            
+            <div class="step">
+                <strong>6.</strong> Debug panel'de ilerlemeyi izleyin
+            </div>
+            
+            <div class="step">
+                <strong>7.</strong> 10 yeni kelimenin listeye eklendiğini kontrol edin
+            </div>
+        </div>
+
+        <div class="test-steps">
+            <h3>✅ Beklenen Sonuçlar:</h3>
+            
+            <div class="step">
+                <strong>Debug Panel:</strong> "JSON paste işlemi başlatıldı" → "Yapıştırma işlemi tamamlandı!"
+            </div>
+            
+            <div class="step">
+                <strong>Bildirim:</strong> "10 kelime yapıştırma ile başarıyla eklendi!"
+            </div>
+            
+            <div class="step">
+                <strong>Kelime Listesi:</strong> 10 yeni kelime görünmeli
+            </div>
+            
+            <div class="step">
+                <strong>Textarea:</strong> İşlem sonrası otomatik temizlenmeli ve gizlenmeli
+            </div>
+        </div>
+
+        <div class="test-steps">
+            <h3>🔧 Buton Düzeni:</h3>
+            <p>Import/Export butonları artık 3 sütunlu grid düzeninde:</p>
+            <div class="step">
+                <strong>📥 Kelimeleri İndir</strong> | <strong>📤 Dosyadan Yükle</strong> | <strong>📋 JSON Yapıştır</strong>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px; color: #666;">
+            <p><strong>JSON yapıştır özelliği çalışıyor mu?</strong> 📋</p>
+            <p>Debug panel'de hangi adımları görüyorsunuz?</p>
+        </div>
+    </div>
+
+    <script>
+        function copyTestJson() {
+            const jsonText = document.getElementById('test-json').textContent;
+            navigator.clipboard.writeText(jsonText).then(() => {
+                const btn = event.target;
+                const originalText = btn.textContent;
+                btn.textContent = '✅ Kopyalandı!';
+                btn.style.background = '#28a745';
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                    btn.style.background = '#28a745';
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug Panel Test - English Learning Extension</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 700px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #dc3545;
+            text-align: center;
+        }
+        .test-steps {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .step {
+            margin: 12px 0;
+            padding: 12px;
+            background: white;
+            border-radius: 5px;
+            border-left: 4px solid #dc3545;
+        }
+        .debug-info {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .expected {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        code {
+            background: #f1f3f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🐛 Debug Panel Açılmıyor - Test</h1>
+        
+        <div class="debug-info">
+            <strong>🔍 Debug Sistemi Test Edildi:</strong><br>
+            • Extension başlatıldığında test mesajı eklendi<br>
+            • Import butonu tıklamasında log eklendi<br>
+            • Dosya seçimi değişikliğinde log eklendi<br>
+            • Console log'ları artırıldı
+        </div>
+
+        <div class="test-steps">
+            <h3>📋 Adım Adım Test:</h3>
+            
+            <div class="step">
+                <strong>1.</strong> F12 tuşuna basın ve <strong>Console</strong> sekmesini açın
+            </div>
+            
+            <div class="step">
+                <strong>2.</strong> Extension'ı yenileyin: <code>chrome://extensions/</code> → 🔄
+            </div>
+            
+            <div class="step">
+                <strong>3.</strong> Extension'ı açın ve Console'da şunu arayın:
+                <br><code>🚀 Extension başlatıldı</code>
+            </div>
+            
+            <div class="step">
+                <strong>4.</strong> Extension'da debug panel görünüyor mu kontrol edin
+                <br>(Kelime listesi bölümünde yeşil bir kutu olmalı)
+            </div>
+            
+            <div class="step">
+                <strong>5.</strong> "📚 Kelimelerim" butonuna tıklayın
+            </div>
+            
+            <div class="step">
+                <strong>6.</strong> "📤 Kelime Yükle" butonuna tıklayın ve Console'da şunu arayın:
+                <br><code>🔘 Import butonu tıklandı</code>
+            </div>
+            
+            <div class="step">
+                <strong>7.</strong> Dosya seçim penceresi açılıyor mu kontrol edin
+            </div>
+            
+            <div class="step">
+                <strong>8.</strong> <code>sample_words.json</code> dosyasını seçin ve Console'da şunu arayın:
+                <br><code>📁 Dosya seçimi değişti</code>
+            </div>
+        </div>
+
+        <div class="expected">
+            <strong>✅ Beklenen Console Log'ları:</strong><br>
+            1. <code>🚀 Extension başlatıldı</code><br>
+            2. <code>🔘 Import butonu tıklandı</code><br>
+            3. <code>📁 Dosya seçimi değişti: FileList</code><br>
+            4. <code>🔄 Import başlatıldı</code><br>
+            5. Debug panel açılmalı ve adımlar görünmeli
+        </div>
+
+        <div class="test-steps">
+            <h3>🚨 Olası Problemler:</h3>
+            
+            <div class="step">
+                <strong>Extension başlatılmadı:</strong> Console'da hiç log yok
+            </div>
+            
+            <div class="step">
+                <strong>Buton çalışmıyor:</strong> "Import butonu tıklandı" log'u yok
+            </div>
+            
+            <div class="step">
+                <strong>Dosya seçimi çalışmıyor:</strong> "Dosya seçimi değişti" log'u yok
+            </div>
+            
+            <div class="step">
+                <strong>Import çalışmıyor:</strong> "Import başlatıldı" log'u yok
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px; color: #666;">
+            <p><strong>Hangi adımda takılıyor?</strong> 🔍</p>
+            <p>Console'da hangi log'ları görüyorsunuz?</p>
+        </div>
+    </div>
+</body>
+</html>

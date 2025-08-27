@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Learning Assistant - Test</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .test-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        .test-section h2 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .step {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+        }
+        .step-number {
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            background: #667eea;
+            color: white;
+            text-align: center;
+            line-height: 25px;
+            border-radius: 50%;
+            margin-right: 10px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        .feature-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .feature-list li:before {
+            content: "✅ ";
+            margin-right: 8px;
+        }
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .success {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        code {
+            background: #f1f3f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 English Learning Assistant</h1>
+        <p style="text-align: center; color: #666; margin-bottom: 30px;">
+            Chrome Extension Test ve Kurulum Rehberi
+        </p>
+
+        <div class="success">
+            <strong>✅ Extension başarıyla güncellendi!</strong><br>
+            Tüm iyileştirmeler tamamlandı ve Chrome'a yüklenmeye hazır.<br>
+            <strong>Yeni özellikler:</strong> Enter tuşu düzeltmesi, Import/Export sistemi, Modern arayüz
+        </div>
+
+        <div class="test-section">
+            <h2>📦 Kurulum Adımları</h2>
+            <div class="step">
+                <span class="step-number">1</span>
+                Chrome tarayıcısında <code>chrome://extensions/</code> adresine gidin
+            </div>
+            <div class="step">
+                <span class="step-number">2</span>
+                Sağ üst köşedeki "Geliştirici modu" (Developer mode) anahtarını açın
+            </div>
+            <div class="step">
+                <span class="step-number">3</span>
+                "Paketlenmemiş uzantı yükle" (Load unpacked) butonuna tıklayın
+            </div>
+            <div class="step">
+                <span class="step-number">4</span>
+                Bu proje klasörünü seçin: <code>EnlishWorkingExtention</code>
+            </div>
+            <div class="step">
+                <span class="step-number">5</span>
+                Extension yüklendikten sonra tarayıcı araç çubuğunda görünecektir
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h2>🧪 Test Senaryoları</h2>
+            
+            <h3>Kelime Ekleme Testi:</h3>
+            <div class="step">
+                <span class="step-number">1</span>
+                Extension ikonuna tıklayın
+            </div>
+            <div class="step">
+                <span class="step-number">2</span>
+                "📝 Kelime Ekle" butonuna tıklayın
+            </div>
+            <div class="step">
+                <span class="step-number">3</span>
+                Test kelimeleri ekleyin:
+                <ul style="margin-top: 10px;">
+                    <li><strong>apple</strong> → <strong>elma</strong></li>
+                    <li><strong>book</strong> → <strong>kitap</strong></li>
+                    <li><strong>water</strong> → <strong>su</strong></li>
+                    <li><strong>house</strong> → <strong>ev</strong></li>
+                    <li><strong>car</strong> → <strong>araba</strong></li>
+                </ul>
+            </div>
+
+            <h3>Quiz Testi:</h3>
+            <div class="step">
+                <span class="step-number">1</span>
+                Ana menüden "🎯 Quiz Başlat" butonuna tıklayın
+            </div>
+            <div class="step">
+                <span class="step-number">2</span>
+                Gösterilen İngilizce kelimenin Türkçe karşılığını yazın
+            </div>
+            <div class="step">
+                <span class="step-number">3</span>
+                Doğru ve yanlış cevapları test edin
+            </div>
+            <div class="step">
+                <span class="step-number">4</span>
+                Skor takibinin çalıştığını kontrol edin
+            </div>
+
+            <h3>Yeni Özellikler Testi:</h3>
+            <div class="step">
+                <span class="step-number">1</span>
+                Quiz'de Enter tuşuna basarak sonraki soruya geçmeyi test edin
+            </div>
+            <div class="step">
+                <span class="step-number">2</span>
+                "📚 Kelimelerim" bölümünde "📥 Kelimeleri İndir" butonunu test edin
+            </div>
+            <div class="step">
+                <span class="step-number">3</span>
+                İndirilen JSON dosyasını "📤 Kelime Yükle" ile geri yüklemeyi test edin
+            </div>
+            <div class="step">
+                <span class="step-number">4</span>
+                Modern arayüz animasyonlarını ve hover efektlerini kontrol edin
+            </div>
+
+            <h3>Diğer Özellikler:</h3>
+            <div class="step">
+                <span class="step-number">1</span>
+                "📚 Kelimelerim" bölümünde kelime listesini kontrol edin
+            </div>
+            <div class="step">
+                <span class="step-number">2</span>
+                Kelime silme özelliğini test edin
+            </div>
+            <div class="step">
+                <span class="step-number">3</span>
+                "📊 İstatistikler" bölümünde verileri kontrol edin
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h2>✨ Özellikler</h2>
+            <ul class="feature-list">
+                <li>İngilizce kelime ve Türkçe karşılık ekleme</li>
+                <li>Rastgele kelime quiz sistemi</li>
+                <li>Enter tuşu ile quiz navigasyonu</li>
+                <li>Doğru/yanlış cevap takibi</li>
+                <li>Başarı oranı hesaplama</li>
+                <li>Kelime listesi görüntüleme</li>
+                <li>Kelime silme özelliği</li>
+                <li>Kelime Import/Export (JSON)</li>
+                <li>İstatistik takibi</li>
+                <li>Modern glassmorphism tasarım</li>
+                <li>Smooth animasyonlar ve hover efektleri</li>
+                <li>Chrome Storage API ile veri saklama</li>
+                <li>Kullanıcı dostu arayüz</li>
+            </ul>
+        </div>
+
+        <div class="warning">
+            <strong>⚠️ Önemli Notlar:</strong><br>
+            • Extension ilk yüklendiğinde kelime listesi boş olacaktır<br>
+            • Quiz başlatmak için en az bir kelime eklemeniz gerekir<br>
+            • Veriler tarayıcıda yerel olarak saklanır<br>
+            • Extension'ı kaldırırsanız veriler silinir
+        </div>
+
+        <div class="test-section">
+            <h2>🔧 Sorun Giderme</h2>
+            <div class="step">
+                <strong>Extension yüklenmiyor:</strong><br>
+                • Manifest.json dosyasının doğru formatta olduğunu kontrol edin<br>
+                • Tüm dosyaların aynı klasörde olduğunu kontrol edin
+            </div>
+            <div class="step">
+                <strong>Popup açılmıyor:</strong><br>
+                • Extension ikonuna sağ tıklayıp "Inspect popup" seçeneğini deneyin<br>
+                • Console'da hata mesajları olup olmadığını kontrol edin
+            </div>
+            <div class="step">
+                <strong>Veriler kaydolmuyor:</strong><br>
+                • Chrome Storage permission'ının verildiğini kontrol edin<br>
+                • Extension'ı yeniden yükleyip deneyin
+            </div>
+        </div>
+
+        <div class="success">
+            <strong>🎉 Tebrikler!</strong><br>
+            English Learning Assistant Chrome Extension'ınız kullanıma hazır!<br>
+            İyi çalışmalar ve başarılar! 📚✨
+        </div>
+    </div>
+</body>
+</html>
