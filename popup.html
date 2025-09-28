@@ -32,6 +32,10 @@
                     <label for="turkish-word">Türkçe Karşılığı:</label>
                     <input type="text" id="turkish-word" placeholder="Örn: elma" required>
                 </div>
+                <div class="form-group">
+                    <label for="example-sentence">Örnek Cümle (İsteğe bağlı):</label>
+                    <input type="text" id="example-sentence" placeholder="Örn: I eat an apple every day">
+                </div>
                 <div class="form-actions">
                     <button type="submit" class="btn btn-primary">Ekle</button>
                     <button type="button" id="back-to-menu" class="btn btn-secondary">Geri</button>
@@ -50,20 +54,18 @@
             </div>
             
             <div id="quiz-content">
+                <!-- Quiz kapatma butonu -->
+                <button id="close-quiz" class="close-quiz-btn" title="Quiz'i Kapat">✕</button>
+                
                 <div class="question-card">
-                    <h3>Bu kelimenin Türkçe karşılığı nedir?</h3>
                     <div class="english-word" id="quiz-english-word">-</div>
+                    <div class="example-sentence" id="quiz-example-sentence"></div>
                     <input type="text" id="quiz-answer" placeholder="Türkçe karşılığını yazın...">
-                    <div class="quiz-actions">
-                        <button id="submit-answer" class="btn btn-primary">Cevapla</button>
-                        <button id="skip-question" class="btn btn-warning">Geç</button>
-                        <button id="end-quiz" class="btn btn-danger">Quiz'i Bitir</button>
-                    </div>
                 </div>
                 
                 <div id="answer-feedback" class="feedback hidden">
                     <div id="feedback-message"></div>
-                    <button id="next-question" class="btn btn-primary">Sonraki Soru</button>
+                    <div style="font-size: 12px; color: #666; margin-top: 8px;">Enter tuşuna basarak devam edin</div>
                 </div>
             </div>
         </div>

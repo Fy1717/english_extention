@@ -35,7 +35,7 @@ class EnglishLearningApp {
     // Veri yükleme ve kaydetme
     async loadData() {
         try {
-            const result = await chrome.storage.local.get(['words', 'stats']);
+            const result = await chrome.storage.local.get(['words', 'stats', 'defaultWordsLoaded']);
             this.words = result.words || [];
             this.stats = result.stats || {
                 totalCorrect: 0,
@@ -43,9 +43,42 @@ class EnglishLearningApp {
                 currentCorrect: 0,
                 currentWrong: 0
             };
+
+            // İlk yükleme ise default kelimeleri yükle
+            if (!result.defaultWordsLoaded && this.words.length === 0) {
+                console.log('🚀 İlk yükleme - default kelimeler yükleniyor...');
+                await this.loadDefaultWords();
+            }
         } catch (error) {
             console.error('Veri yüklenirken hata:', error);
             this.showNotification('Veri yüklenirken hata oluştu!', 'error');
+        }
+    }
+
+    // Default kelimeleri yükle
+    async loadDefaultWords() {
+        try {
+            const response = await fetch(chrome.runtime.getURL('sample_words.json'));
+            const data = await response.json();
+            
+            if (data.words && Array.isArray(data.words)) {
+                this.words = data.words.map(word => ({
+                    ...word,
+                    id: word.id || (Date.now() + Math.random()),
+                    addedDate: word.addedDate || new Date().toISOString()
+                }));
+                
+                await this.saveData();
+                
+                // Default kelimelerin yüklendiğini işaretle
+                await chrome.storage.local.set({ defaultWordsLoaded: true });
+                
+                console.log(`✅ ${this.words.length} default kelime yüklendi`);
+                this.addDebugStep(`${this.words.length} default kelime yüklendi`, 'success');
+            }
+        } catch (error) {
+            console.error('Default kelimeler yüklenirken hata:', error);
+            this.addDebugStep(`Default kelimeler yüklenemedi: ${error.message}`, 'error');
         }
     }
 
@@ -91,20 +124,8 @@ class EnglishLearningApp {
         });
 
         // Quiz
-        document.getElementById('submit-answer').addEventListener('click', () => {
-            this.checkAnswer();
-        });
-
-        document.getElementById('skip-question').addEventListener('click', () => {
-            this.skipQuestion();
-        });
-
-        document.getElementById('end-quiz').addEventListener('click', () => {
+        document.getElementById('close-quiz').addEventListener('click', () => {
             this.endQuiz();
-        });
-
-        document.getElementById('next-question').addEventListener('click', () => {
-            this.nextQuestion();
         });
 
         document.getElementById('quiz-answer').addEventListener('keypress', (e) => {
@@ -179,9 +200,10 @@ class EnglishLearningApp {
     async addWord() {
         const englishWord = document.getElementById('english-word').value.trim().toLowerCase();
         const turkishWord = document.getElementById('turkish-word').value.trim().toLowerCase();
+        const exampleSentence = document.getElementById('example-sentence').value.trim();
 
         if (!englishWord || !turkishWord) {
-            this.showNotification('Lütfen her iki alanı da doldurun!', 'error');
+            this.showNotification('Lütfen İngilizce kelime ve Türkçe karşılığını doldurun!', 'error');
             return;
         }
 
@@ -192,13 +214,20 @@ class EnglishLearningApp {
             return;
         }
 
-        // Yeni kelime ekle
-        this.words.push({
+        // Yeni kelime objesi oluştur
+        const newWord = {
             id: Date.now(),
             english: englishWord,
             turkish: turkishWord,
             addedDate: new Date().toISOString()
-        });
+        };
+
+        // Örnek cümle varsa ekle
+        if (exampleSentence) {
+            newWord.example = exampleSentence;
+        }
+
+        this.words.push(newWord);
 
         await this.saveData();
         this.showNotification('Kelime başarıyla eklendi!');
@@ -248,6 +277,17 @@ class EnglishLearningApp {
         console.log('📝 Mevcut kelime:', this.currentQuizWord);
 
         document.getElementById('quiz-english-word').textContent = this.currentQuizWord.english;
+        
+        // Örnek cümleyi göster veya gizle
+        const exampleElement = document.getElementById('quiz-example-sentence');
+        if (this.currentQuizWord.example) {
+            exampleElement.textContent = `"${this.currentQuizWord.example}"`;
+            exampleElement.classList.remove('hidden');
+        } else {
+            exampleElement.textContent = '';
+            exampleElement.classList.add('hidden');
+        }
+        
         document.getElementById('quiz-answer').value = '';
         document.getElementById('quiz-answer').focus();
 
@@ -322,16 +362,15 @@ class EnglishLearningApp {
         if (isCorrect) {
             feedbackEl.classList.add('correct');
             messageEl.innerHTML = `
-                <div style="font-size: 18px; margin-bottom: 10px;">✅ Doğru!</div>
+                <div style="font-size: 16px; margin-bottom: 8px;">✅ Doğru!</div>
                 <div><strong>${this.currentQuizWord.english}</strong> = <strong>${correctAnswer}</strong></div>
             `;
         } else {
             feedbackEl.classList.add('wrong');
             messageEl.innerHTML = `
-                <div style="font-size: 18px; margin-bottom: 10px;">❌ Yanlış!</div>
-                <div>Sizin cevabınız: <strong>${userAnswer || '(boş)'}</strong></div>
-                <div>Doğru cevap: <strong>${correctAnswer}</strong></div>
-                <div style="margin-top: 10px;"><strong>${this.currentQuizWord.english}</strong> = <strong>${correctAnswer}</strong></div>
+                <div style="font-size: 16px; margin-bottom: 6px;">❌ Yanlış!</div>
+                <div style="font-size: 13px; margin-bottom: 4px;">Sizin cevabınız: <strong>${userAnswer || '(boş)'}</strong></div>
+                <div style="font-size: 13px;">Doğru cevap: <strong>${correctAnswer}</strong></div>
             `;
         }
 
@@ -342,14 +381,6 @@ class EnglishLearningApp {
         console.log('✅ Feedback gösterildi');
     }
 
-    // Soruyu geç
-    skipQuestion() {
-        this.stats.currentWrong++;
-        this.stats.totalWrong++;
-        this.showAnswerFeedback(false, this.currentQuizWord.turkish, '(geçildi)');
-        this.updateQuizScore();
-        this.saveData();
-    }
 
     // Sonraki soru
     nextQuestion() {
@@ -408,6 +439,7 @@ class EnglishLearningApp {
                 <div class="word-pair">
                     <div class="word-english" data-field="english">${word.english}</div>
                     <div class="word-turkish" data-field="turkish">${word.turkish}</div>
+                    ${word.example ? `<div class="word-example" data-field="example">"${word.example}"</div>` : ''}
                 </div>
                 <div class="word-actions">
                     <button class="edit-word" data-word-id="${word.id}" title="Düzenle">✏️</button>
@@ -505,6 +537,13 @@ class EnglishLearningApp {
             return;
         }
 
+        const currentExample = word.example || '';
+        const newExample = prompt('Örnek cümle (boş bırakabilirsiniz):', currentExample);
+        if (newExample === null) {
+            console.log('❌ Düzenleme iptal edildi');
+            return;
+        }
+
         // Boş değer kontrolü
         if (!newEnglish.trim() || !newTurkish.trim()) {
             console.log('❌ Boş değer girildi');
@@ -524,6 +563,13 @@ class EnglishLearningApp {
         word.english = newEnglish.toLowerCase().trim();
         word.turkish = newTurkish.toLowerCase().trim();
         word.updatedDate = new Date().toISOString();
+        
+        // Örnek cümleyi güncelle
+        if (newExample.trim()) {
+            word.example = newExample.trim();
+        } else {
+            delete word.example; // Örnek cümle yoksa sil
+        }
 
         console.log('✅ Kelime güncellendi:', word);
 
@@ -716,13 +762,20 @@ class EnglishLearningApp {
                 continue;
             }
 
-            // Yeni kelime ekle
-            this.words.push({
+            // Yeni kelime objesi oluştur
+            const newWord = {
                 id: Date.now() + Math.random(),
                 english: word.english.toLowerCase(),
                 turkish: word.turkish.toLowerCase(),
                 addedDate: new Date().toISOString()
-            });
+            };
+
+            // Örnek cümle varsa ekle
+            if (word.example && word.example.trim()) {
+                newWord.example = word.example.trim();
+            }
+
+            this.words.push(newWord);
             importedCount++;
         }
 

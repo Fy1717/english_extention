@@ -1,222 +1,2224 @@
 {
-  "words": [
-    {
-      "addedDate": "2025-08-26T12:56:21.461Z",
+  "words": [{
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "regularly",
-      "id": 1756212981461,
-      "turkish": "düzenli olarak"
+      "id": 1756565206587.8447,
+      "turkish": "düzenli olarak",
+      "example": "I exercise regularly to stay healthy."
     },
     {
-      "addedDate": "2025-08-26T12:56:32.116Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "necessary",
-      "id": 1756212992116,
-      "turkish": "gerekli"
+      "id": 1756565206587.3313,
+      "turkish": "gerekli",
+      "example": "It is necessary to have a visa to enter the country."
     },
     {
-      "addedDate": "2025-08-26T12:56:49.619Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "occur",
-      "id": 1756213009619,
-      "turkish": "meydana gelmek"
+      "id": 1756565206587.889,
+      "turkish": "meydana gelmek",
+      "example": "The accident occurred at the intersection."
     },
     {
-      "addedDate": "2025-08-26T12:56:59.828Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "penetrate",
-      "id": 1756213019828,
-      "turkish": "içine girmek"
+      "id": 1756565206587.222,
+      "turkish": "içine girmek",
+      "example": "The knife was sharp enough to penetrate the metal."
     },
     {
-      "addedDate": "2025-08-26T12:57:07.308Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "supply",
-      "id": 1756213027308,
-      "turkish": "sağlamak"
+      "id": 1756565206587.499,
+      "turkish": "sağlamak",
+      "example": "The company will supply all the materials for the project."
     },
     {
-      "addedDate": "2025-08-26T12:57:13.162Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "matter",
-      "id": 1756213033162,
-      "turkish": "madde"
+      "id": 1756565206587.3704,
+      "turkish": "madde",
+      "example": "Scientists study the properties of matter."
     },
     {
-      "addedDate": "2025-08-26T12:57:26.316Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "launch",
-      "id": 1756213046316,
-      "turkish": "fırlatmak"
+      "id": 1756565206587.1707,
+      "turkish": "fırlatmak",
+      "example": "They will launch the new product next month."
     },
     {
-      "addedDate": "2025-08-26T12:57:35.452Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "influence",
-      "id": 1756213055452,
-      "turkish": "etki etmek"
+      "id": 1756565206587.7896,
+      "turkish": "etki etmek",
+      "example": "Her teacher had a great influence on her career choice."
     },
     {
-      "addedDate": "2025-08-26T13:20:32.186Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "growth",
-      "id": 1756214432186,
-      "turkish": "büyüme"
+      "id": 1756565206587.1135,
+      "turkish": "büyüme",
+      "example": "The rapid growth of the plant surprised everyone."
     },
     {
-      "addedDate": "2025-08-26T13:21:28.825Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "eventually",
-      "id": 1756214488825,
-      "turkish": "sonunda"
+      "id": 1756565206587.7654,
+      "turkish": "sonunda",
+      "example": "After many attempts, she eventually succeeded."
     },
     {
-      "addedDate": "2025-08-26T13:21:39.090Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "useful",
-      "id": 1756214499090,
-      "turkish": "faydalı"
+      "id": 1756565206587.1099,
+      "turkish": "faydalı",
+      "example": "The internet is a useful tool for research."
     },
     {
-      "addedDate": "2025-08-26T13:21:48.473Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "magnify",
-      "id": 1756214508473,
-      "turkish": "büyük göstermek"
+      "id": 1756565206587.3381,
+      "turkish": "büyük göstermek",
+      "example": "This glass can magnify objects up to ten times."
     },
     {
-      "addedDate": "2025-08-26T13:22:03.473Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "formerly",
-      "id": 1756214523473,
-      "turkish": "eskiden beri"
+      "id": 1756565206587.547,
+      "turkish": "eskiden beri",
+      "example": "The building was formerly a school."
     },
     {
-      "addedDate": "2025-08-26T13:22:11.561Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "vague",
-      "id": 1756214531561,
-      "turkish": "muğlak"
+      "id": 1756565206587.373,
+      "turkish": "muğlak",
+      "example": "He gave a vague answer to my question."
     },
     {
-      "addedDate": "2025-08-26T13:22:25.913Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "enable",
-      "id": 1756214545913,
-      "turkish": "olanak sağlamak"
+      "id": 1756565206587.5718,
+      "turkish": "olanak sağlamak",
+      "example": "This software will enable us to work more efficiently."
     },
     {
-      "addedDate": "2025-08-26T13:22:34.841Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "vanish",
-      "id": 1756214554841,
-      "turkish": "yok etmek"
+      "id": 1756565206587.3704,
+      "turkish": "yok etmek",
+      "example": "The magician made the rabbit vanish."
     },
     {
-      "addedDate": "2025-08-26T13:22:47.385Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "wilderness",
-      "id": 1756214567385,
-      "turkish": "yaban hayatı"
+      "id": 1756565206587.579,
+      "turkish": "yaban hayatı",
+      "example": "They went hiking in the wilderness for a week."
     },
     {
-      "addedDate": "2025-08-26T13:22:55.129Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "enhance",
-      "id": 1756214575129,
-      "turkish": "artırmak"
+      "id": 1756565206587.36,
+      "turkish": "artırmak",
+      "example": "Adding spices can enhance the flavor of the food."
     },
     {
-      "addedDate": "2025-08-26T13:23:04.953Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "celestial",
-      "id": 1756214584953,
-      "turkish": "gökle ilgili"
+      "id": 1756565206587.0378,
+      "turkish": "gökle ilgili",
+      "example": "Astronomers study celestial bodies like stars and planets."
     },
     {
-      "addedDate": "2025-08-26T13:23:19.913Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "extinction",
-      "id": 1756214599913,
-      "turkish": "nesli tükenmek"
+      "id": 1756565206587.2078,
+      "turkish": "nesli tükenmek",
+      "example": "Many species are in danger of extinction."
     },
     {
-      "addedDate": "2025-08-26T13:23:36.545Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "gain",
-      "id": 1756214616545,
-      "turkish": "kazanmak"
+      "id": 1756565206587.4521,
+      "turkish": "kazanmak",
+      "example": "She hopes to gain more experience in her new job."
     },
     {
-      "addedDate": "2025-08-26T13:23:45.353Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "initially",
-      "id": 1756214625353,
-      "turkish": "başlangıç olarak"
+      "id": 1756565206587.3767,
+      "turkish": "başlangıç olarak",
+      "example": "Initially, I thought the plan was too complicated."
     },
     {
-      "addedDate": "2025-08-26T13:23:53.441Z",
+      "addedDate": "2025-08-30T14:46:46.587Z",
       "english": "pursue",
-      "id": 1756214633441,
-      "turkish": "takip etmek"
+      "id": 1756565206587.8691,
+      "turkish": "takip etmek",
+      "example": "He decided to pursue a career in medicine."
     },
     {
-      "addedDate": "2025-08-26T13:24:11.983Z",
+      "addedDate": "2025-08-30T14:46:46.588Z",
       "english": "reasonable",
-      "id": 1756214651983,
-      "turkish": "akıllıca"
+      "id": 1756565206588.4268,
+      "turkish": "akıllıca",
+      "example": "The price for the car seems reasonable."
     },
     {
-      "addedDate": "2025-08-26T13:24:17.137Z",
+      "addedDate": "2025-08-30T14:46:46.588Z",
       "english": "state",
-      "id": 1756214657137,
-      "turkish": "durum"
+      "id": 1756565206588.4443,
+      "turkish": "durum",
+      "example": "Please state your name and address clearly."
     },
     {
-      "addedDate": "2025-08-26T13:24:26.431Z",
+      "addedDate": "2025-08-30T14:46:46.588Z",
       "english": "prove",
-      "id": 1756214666431,
-      "turkish": "kanıtlamak"
+      "id": 1756565206588.0315,
+      "turkish": "kanıtlamak",
+      "example": "Can you prove that you were at home last night?"
     },
     {
-      "addedDate": "2025-08-26T13:24:36.353Z",
+      "addedDate": "2025-08-30T14:46:46.588Z",
       "english": "discard",
-      "id": 1756214676353,
-      "turkish": "kurtulmak"
+      "id": 1756565206588.5735,
+      "turkish": "kurtulmak",
+      "example": "Please discard any old files you no longer need."
     },
     {
-      "addedDate": "2025-08-26T13:24:43.817Z",
+      "addedDate": "2025-08-30T14:46:46.588Z",
       "english": "knowladge",
-      "id": 1756214683817,
-      "turkish": "bilgi"
+      "id": 1756565206588.6172,
+      "turkish": "bilgi",
+      "example": "She has extensive knowledge of ancient history."
     },
     {
-      "addedDate": "2025-08-26T13:24:58.561Z",
+      "addedDate": "2025-08-30T14:46:46.588Z",
       "english": "precaution",
-      "id": 1756214698561,
-      "turkish": "önlem"
+      "id": 1756565206588.4924,
+      "turkish": "önlem",
+      "example": "As a precaution, always wear a seatbelt while driving."
     },
     {
-      "addedDate": "2025-08-26T13:25:06.702Z",
+      "addedDate": "2025-08-30T14:46:46.588Z",
       "english": "repair",
-      "id": 1756214706702,
-      "turkish": "tamir etmek"
+      "id": 1756565206588.1096,
+      "turkish": "tamir etmek",
+      "example": "It will cost a lot to repair the damaged roof."
     },
     {
-      "addedDate": "2025-08-26T13:25:16.302Z",
+      "addedDate": "2025-08-30T14:46:46.588Z",
       "english": "primary",
-      "id": 1756214716302,
-      "turkish": "başlıca"
+      "id": 1756565206588.7288,
+      "turkish": "başlıca",
+      "example": "Our primary goal is to ensure customer satisfaction."
     },
     {
-      "addedDate": "2025-08-26T13:25:24.247Z",
+      "addedDate": "2025-08-30T14:46:46.588Z",
       "english": "reduce",
-      "id": 1756214724247,
-      "turkish": "azaltmak"
+      "id": 1756565206588.2415,
+      "turkish": "azaltmak",
+      "example": "We need to reduce our energy consumption to save money."
     },
     {
-      "addedDate": "2025-08-26T13:25:34.049Z",
+      "addedDate": "2025-08-30T14:46:46.588Z",
       "english": "disease",
-      "id": 1756214734049,
-      "turkish": "hastalık"
+      "id": 1756565206588.849,
+      "turkish": "hastalık",
+      "example": "The doctor specialized in treating heart disease."
     },
     {
-      "addedDate": "2025-08-26T13:26:31.361Z",
+      "addedDate": "2025-08-30T14:46:46.588Z",
       "english": "accessible",
-      "id": 1756214791361,
-      "turkish": "ulaşılabilir"
+      "id": 1756565206588.9512,
+      "turkish": "ulaşılabilir",
+      "example": "The museum is easily accessible by public transportation."
     },
     {
-      "addedDate": "2025-08-26T13:26:40.967Z",
+      "addedDate": "2025-08-30T14:46:46.588Z",
       "english": "agriculture",
-      "id": 1756214800967,
-      "turkish": "tarım"
+      "id": 1756565206588.839,
+      "turkish": "tarım",
+      "example": "Modern agriculture relies heavily on technology."
     },
     {
-      "addedDate": "2025-08-26T13:26:51.625Z",
+      "addedDate": "2025-08-30T14:46:46.588Z",
       "english": "annual",
-      "id": 1756214811625,
-      "turkish": "yıllık"
+      "id": 1756565206588.2678,
+      "turkish": "yıllık",
+      "example": "The company holds its annual meeting in December."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "recommend",
+      "id": 1756565206588.6523,
+      "turkish": "önermek",
+      "example": "I would recommend this restaurant for its excellent service."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "vary",
+      "id": 1756565206588.2449,
+      "turkish": "değişmek",
+      "example": "Prices may vary depending on the season."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "approximately",
+      "id": 1756565206588.785,
+      "turkish": "yaklaşık olarak",
+      "example": "The journey takes approximately three hours."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "principle",
+      "id": 1756565206588.3376,
+      "turkish": "kural",
+      "example": "She refused to lie as a matter of principle."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "monitor",
+      "id": 1756565206588.6006,
+      "turkish": "izlemek",
+      "example": "Doctors need to monitor the patient's condition closely."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "scarce",
+      "id": 1756565206588.55,
+      "turkish": "kısıtlı",
+      "example": "Water became scarce during the long drought."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "fluction",
+      "id": 1756565206588.835,
+      "turkish": "dalgalanma",
+      "example": "There are constant fluctions in the stock market."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "invent",
+      "id": 1756565206588.1282,
+      "turkish": "icat etmek",
+      "example": "Alexander Graham Bell helped invent the telephone."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "exceptional",
+      "id": 1756565206588.7834,
+      "turkish": "olağanüstü",
+      "example": "The student showed exceptional talent in mathematics."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "illustrate",
+      "id": 1756565206588.9863,
+      "turkish": "sergilemek",
+      "example": "The graph illustrates the growth in sales over the year."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "opportunity",
+      "id": 1756565206588.2864,
+      "turkish": "şans",
+      "example": "This job is a great opportunity for recent graduates."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "product",
+      "id": 1756565206588.1729,
+      "turkish": "ürün",
+      "example": "This new cleaning product is very effective."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "investigate",
+      "id": 1756565206588.1292,
+      "turkish": "inceleme",
+      "example": "The police will investigate the cause of the accident."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "likelihood",
+      "id": 1756565206588.9368,
+      "turkish": "ihtimal",
+      "example": "There's a high likelihood of rain this afternoon."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "primitive",
+      "id": 1756565206588.8164,
+      "turkish": "ilkel",
+      "example": "Early humans used primitive tools made of stone."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "regulation",
+      "id": 1756565206588.495,
+      "turkish": "kural",
+      "example": "Strict regulations govern food safety in this country."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "especially",
+      "id": 1756565206588.4019,
+      "turkish": "özellikle",
+      "example": "I love all fruit, especially strawberries and mangoes."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "decade",
+      "id": 1756565206588.5056,
+      "turkish": "on yıl",
+      "example": "Technology has changed dramatically in the past decade."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "purpose",
+      "id": 1756565206588.416,
+      "turkish": "amaç",
+      "example": "The main purpose of this meeting is to discuss the budget."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "significantly",
+      "id": 1756565206588.3286,
+      "turkish": "önemli ölçüde",
+      "example": "The new policy has significantly improved working conditions."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "survey",
+      "id": 1756565206588.4795,
+      "turkish": "araştırma",
+      "example": "We conducted a survey to gather customer feedback."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "reason",
+      "id": 1756565206588.7805,
+      "turkish": "sebep",
+      "example": "The reason for the delay was bad weather."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "apple",
+      "id": 1756565206588.3425,
+      "turkish": "elma",
+      "example": "She eats an apple every day for a healthy snack."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "detect",
+      "id": 1756565206588.8303,
+      "turkish": "tespit etmek",
+      "example": "The security system can detect movement in the dark."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "emerge",
+      "id": 1756565206588.6338,
+      "turkish": "ortaya çıkarmak",
+      "example": "New evidence emerged during the investigation."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "colleague",
+      "id": 1756565206588.7607,
+      "turkish": "meslektaş",
+      "example": "I'm going to lunch with my colleagues from the office."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "bar",
+      "id": 1756565206588.346,
+      "turkish": "çubuk",
+      "example": "The recipe requires one bar of dark chocolate."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "boss",
+      "id": 1756565206588.8074,
+      "turkish": "patron",
+      "example": "My boss approved my vacation request for next month."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "strong",
+      "id": 1756565206588.617,
+      "turkish": "güçlü",
+      "example": "You need to be strong to lift that heavy box."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "polite",
+      "id": 1756565206588.984,
+      "turkish": "kibar",
+      "example": "It's important to be polite to customers at all times."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "occupation",
+      "id": 1756565206588.536,
+      "turkish": "meslek",
+      "example": "What is your current occupation?"
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "clever",
+      "id": 1756565206588.5747,
+      "turkish": "akıllı",
+      "example": "The clever student solved the difficult math problem easily."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "funny",
+      "id": 1756565206588.6494,
+      "turkish": "komik",
+      "example": "He told a funny story that made everyone laugh."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "great",
+      "id": 1756565206588.6726,
+      "turkish": "harika",
+      "example": "We had a great time at the concert last night."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "carry",
+      "id": 1756565206588.5784,
+      "turkish": "taşımak",
+      "example": "Can you help me carry these groceries to the car?"
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "heavy",
+      "id": 1756565206588.973,
+      "turkish": "ağır",
+      "example": "This suitcase is too heavy for me to lift alone."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "sail",
+      "id": 1756565206588.4714,
+      "turkish": "denize açılmak",
+      "example": "They plan to sail around the world next year."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "wonderful",
+      "id": 1756565206588.1719,
+      "turkish": "müthiş",
+      "example": "We had a wonderful vacation in the mountains."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "laugh",
+      "id": 1756565206588.1943,
+      "turkish": "gülmek",
+      "example": "He always makes me laugh."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "exciting",
+      "id": 1756565206588.2087,
+      "turkish": "heyecan verici",
+      "example": "The race itself is very exciting."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "advertisement",
+      "id": 1756565206588.3726,
+      "turkish": "reklamcılık",
+      "example": "He learned about the job from an advertisement in the newspaper."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "enjoy",
+      "id": 1756565206588.551,
+      "turkish": "zevk almak",
+      "example": "We enjoy spending time together."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "member",
+      "id": 1756565206588.8628,
+      "turkish": "üye",
+      "example": "She is a member of the local hiking club."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "classmate",
+      "id": 1756565206588.431,
+      "turkish": "sınıf arkadaşı",
+      "example": "The schoolchildren worked together to provide a gift of condolence for their sick classmate."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "happening",
+      "id": 1756565206588.0537,
+      "turkish": "olay",
+      "example": "There have been strange happenings here lately."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "send",
+      "id": 1756565206588.3567,
+      "turkish": "göndermek",
+      "example": "Please send me an email with the details."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "want",
+      "id": 1756565206588.1167,
+      "turkish": "istemek",
+      "example": "I want to travel the world."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "casual",
+      "id": 1756565206588.952,
+      "turkish": "günlük",
+      "example": "He made a casual remark about her shoes."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "hear",
+      "id": 1756565206588.8318,
+      "turkish": "duymak",
+      "example": "I heard a strange noise outside."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "wash",
+      "id": 1756565206588.1897,
+      "turkish": "yıkamak",
+      "example": "I need to wash my car."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "meet",
+      "id": 1756565206588.7734,
+      "turkish": "tanışmak",
+      "example": "Let's meet for coffee tomorrow."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "appointment",
+      "id": 1756565206588.539,
+      "turkish": "randevu",
+      "example": "I have a doctor's appointment tomorrow morning at nine o'clock."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "meeting",
+      "id": 1756565206588.7266,
+      "turkish": "toplantı",
+      "example": "We have a meeting at 2 PM."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "company",
+      "id": 1756565206588.866,
+      "turkish": "şirket",
+      "example": "He runs his own trucking company."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "cafeteria",
+      "id": 1756565206588.3403,
+      "turkish": "kafeterya",
+      "example": "Her high school class was the first to get to eat in the cafeteria."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "downtown",
+      "id": 1756565206588.8135,
+      "turkish": "şehir merkezi",
+      "example": "He works in an office tower in downtown San Francisco."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "busy",
+      "id": 1756565206588.7588,
+      "turkish": "meşgul",
+      "example": "He is a very busy person."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "whole",
+      "id": 1756565206588.4055,
+      "turkish": "bütün",
+      "example": "She ate the whole pizza by herself."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "lunch",
+      "id": 1756565206588.6597,
+      "turkish": "öğle yemeği",
+      "example": "I'll have a sandwich for lunch."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "dinner",
+      "id": 1756565206588.4905,
+      "turkish": "akşam yemeği",
+      "example": "Let's go out for dinner."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "building",
+      "id": 1756565206588.7686,
+      "turkish": "inşa",
+      "example": "My office is in that small brick building."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "bake",
+      "id": 1756565206588.278,
+      "turkish": "pişmek",
+      "example": "She wrapped the fish in foil and baked it for 15 minutes."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "spare",
+      "id": 1756565206588.745,
+      "turkish": "kıyamamak",
+      "example": "I have a spare key if you need one."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.588Z",
+      "english": "shy",
+      "id": 1756565206588.8877,
+      "turkish": "utangaç",
+      "example": "He's too shy to talk to new people."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "friendly",
+      "id": 1756565206589.2698,
+      "turkish": "arkadaş canlısı",
+      "example": "The local people are very friendly to visitors."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "hire",
+      "id": 1756565206589.237,
+      "turkish": "kiralamak",
+      "example": "They decided to hire a new assistant."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "hard-working",
+      "id": 1756565206589.329,
+      "turkish": "çalışkan",
+      "example": "She is a very hard-working student."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "interview",
+      "id": 1756565206589.4524,
+      "turkish": "stajyer",
+      "example": "I have a job interview next week."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "amazing",
+      "id": 1756565206589.7415,
+      "turkish": "inanılmaz",
+      "example": "He has an amazing ability to learn new languages."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "staff",
+      "id": 1756565206589.8665,
+      "turkish": "kadro",
+      "example": "The restaurant staff was very helpful."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "single",
+      "id": 1756565206589.6287,
+      "turkish": "bekar, tek",
+      "example": "I'm a single person, but I have a big family."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "married",
+      "id": 1756565206589.3047,
+      "turkish": "evli",
+      "example": "My parents have been married for 30 years."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "resume",
+      "id": 1756565206589.798,
+      "turkish": "sürdürmek, devam etmek",
+      "example": "He submitted his resume for the job."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "receive",
+      "id": 1756565206589.7217,
+      "turkish": "karşılamak",
+      "example": "I received a package in the mail."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "temperature",
+      "id": 1756565206589.968,
+      "turkish": "sıcaklık",
+      "example": "The temperature is expected to drop below freezing tonight."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "freeze",
+      "id": 1756565206589.5325,
+      "turkish": "donmak",
+      "example": "The ground froze solid."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "heat",
+      "id": 1756565206589.6626,
+      "turkish": "ısı",
+      "example": "The heat was unbearable during the summer."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "melt",
+      "id": 1756565206589.5625,
+      "turkish": "eritmek",
+      "example": "The ice cream started to melt in the sun."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "snow",
+      "id": 1756565206589.8474,
+      "turkish": "kar",
+      "example": "It started to snow heavily."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "ice",
+      "id": 1756565206589.3035,
+      "turkish": "buz",
+      "example": "I need some ice for my drink."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "river",
+      "id": 1756565206589.5188,
+      "turkish": "nehir",
+      "example": "We went fishing in the river."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "warm",
+      "id": 1756565206589.829,
+      "turkish": "ılık",
+      "example": "The sun feels warm on my skin."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "wet",
+      "id": 1756565206589.876,
+      "turkish": "ıslak",
+      "example": "My clothes are all wet from the rain."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "rain",
+      "id": 1756565206589.862,
+      "turkish": "yağmur",
+      "example": "I hope it doesn't rain tomorrow."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "hungry",
+      "id": 1756565206589.226,
+      "turkish": "aç",
+      "example": "I am so hungry, I could eat a horse."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "pool",
+      "id": 1756565206589.1045,
+      "turkish": "havuz",
+      "example": "We swam in the hotel pool."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "guidebook",
+      "id": 1756565206589.9895,
+      "turkish": "rehber kitap",
+      "example": "With a good guidebook and clear nights, the universe is yours."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "path",
+      "id": 1756565206589.1804,
+      "turkish": "yol",
+      "example": "Follow the path through the woods."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "mountain",
+      "id": 1756565206589.5286,
+      "turkish": "dağ",
+      "example": "We climbed the highest mountain."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "forest",
+      "id": 1756565206589.6035,
+      "turkish": "orman",
+      "example": "We went for a walk through the forest."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "advertisiment",
+      "id": 1756565206589.2224,
+      "turkish": "reklamcılık",
+      "example": "This is a bad advertisement for that country."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "trip",
+      "id": 1756565206589.6907,
+      "turkish": "seyahat",
+      "example": "We're going on a trip to Italy."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "street",
+      "id": 1756565206589.054,
+      "turkish": "sokak",
+      "example": "There are many shops on this street."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "wine",
+      "id": 1756565206589.1875,
+      "turkish": "şarap",
+      "example": "I enjoy a glass of red wine with my dinner."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "sale",
+      "id": 1756565206589.814,
+      "turkish": "satış",
+      "example": "The new car is on sale this week."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "advice",
+      "id": 1756565206589.3215,
+      "turkish": "tavsiye",
+      "example": "My teacher gave me some great advice about my project."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "order",
+      "id": 1756565206589.7256,
+      "turkish": "sipariş",
+      "example": "I'd like to order a hamburger and fries, please."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "dessert",
+      "id": 1756565206589.7458,
+      "turkish": "tatlı",
+      "example": "What's for dessert tonight?"
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "band",
+      "id": 1756565206589.1,
+      "turkish": "bant, müzik grubu",
+      "example": "My favorite band is playing a concert this weekend."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "juice",
+      "id": 1756565206589.3992,
+      "turkish": "meyve suyu",
+      "example": "Can I have a glass of orange juice?"
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "fruit",
+      "id": 1756565206589.9895,
+      "turkish": "meyve",
+      "example": "Eating a lot of fruit is good for your health."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "couch",
+      "id": 1756565206589.7544,
+      "turkish": "kanepe",
+      "example": "We sat on the couch and watched a movie."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "discuss",
+      "id": 1756565206589.7498,
+      "turkish": "tartışmak",
+      "example": "We need to discuss the new marketing strategy."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "so far",
+      "id": 1756565206589.5247,
+      "turkish": "şimdiye kadar",
+      "example": "So far everything is going according to plan."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "treatment",
+      "id": 1756565206589.6091,
+      "turkish": "tedavi",
+      "example": "The doctor recommended a new treatment for the patient."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "evaluate",
+      "id": 1756565206589.3877,
+      "turkish": "değerlendirmek",
+      "example": "We need to evaluate the results of the survey."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "patient",
+      "id": 1756565206589.7344,
+      "turkish": "hasta",
+      "example": "The patient is recovering well after the surgery."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "examine",
+      "id": 1756565206589.0872,
+      "turkish": "incelemek",
+      "example": "The police will examine the evidence carefully."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "pill",
+      "id": 1756565206589.5725,
+      "turkish": "ilaç",
+      "example": "You need to take one pill every morning."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "sick",
+      "id": 1756565206589.8667,
+      "turkish": "hasta",
+      "example": "I can't go to work because I feel sick."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "diagnose",
+      "id": 1756565206589.335,
+      "turkish": "teşhis koymak",
+      "example": "The doctor was able to diagnose the problem quickly."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "vein",
+      "id": 1756565206589.5173,
+      "turkish": "damar",
+      "example": "The nurse couldn't find a vein for the blood test."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "clothing",
+      "id": 1756565206589.7007,
+      "turkish": "giyim",
+      "example": "We donated our old clothing to a charity."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "lake",
+      "id": 1756565206589.441,
+      "turkish": "göl",
+      "example": "We went swimming in the lake last summer."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "view",
+      "id": 1756565206589.4333,
+      "turkish": "görüş",
+      "example": "The hotel room has a beautiful view of the ocean."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "hill",
+      "id": 1756565206589.7478,
+      "turkish": "tepe",
+      "example": "We climbed to the top of the hill to see the sunset."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "moon",
+      "id": 1756565206589.517,
+      "turkish": "ay",
+      "example": "The full moon was very bright last night."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "bright",
+      "id": 1756565206589.2393,
+      "turkish": "parlak",
+      "example": "The sun is very bright today."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "movie",
+      "id": 1756565206589.7544,
+      "turkish": "film",
+      "example": "Let's go see a movie tonight."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "pasta",
+      "id": 1756565206589.061,
+      "turkish": "makarna",
+      "example": "I'm making pasta for dinner."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "tired",
+      "id": 1756565206589.5796,
+      "turkish": "yorgun",
+      "example": "I'm so tired after a long day of work."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "shoe",
+      "id": 1756565206589.799,
+      "turkish": "ayakkabı",
+      "example": "I need to buy a new pair of shoes."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "seat",
+      "id": 1756565206589.5645,
+      "turkish": "koltuk",
+      "example": "Please take your seat, the show is about to begin."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "fire",
+      "id": 1756565206589.658,
+      "turkish": "ateş",
+      "example": "We lit a fire in the fireplace to stay warm."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "luggage",
+      "id": 1756565206589.4197,
+      "turkish": "bagaj",
+      "example": "Please put your luggage in the trunk of the car."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "wood",
+      "id": 1756565206589.004,
+      "turkish": "odun",
+      "example": "We need to collect more wood for the campfire."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "adventure",
+      "id": 1756565206589.7979,
+      "turkish": "macera",
+      "example": "Our trip to the mountains was a real adventure."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "tell",
+      "id": 1756565206589.2698,
+      "turkish": "söylemek",
+      "example": "Can you tell me the time?"
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "interesting",
+      "id": 1756565206589.5662,
+      "turkish": "ilginç",
+      "example": "That's a very interesting question."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "suitcase",
+      "id": 1756565206589.6685,
+      "turkish": "bavul",
+      "example": "I packed my suitcase for the trip."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "compare",
+      "id": 1756565206589.2097,
+      "turkish": "karşılaştırmak",
+      "example": "You shouldn't compare yourself to others."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "fewer",
+      "id": 1756565206589.6746,
+      "turkish": "daha az",
+      "example": "There are fewer cars on the road on weekends."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "more",
+      "id": 1756565206589.3337,
+      "turkish": "daha fazla",
+      "example": "I need more time to finish this task."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "less",
+      "id": 1756565206589.848,
+      "turkish": "az",
+      "example": "I have less money than I thought."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "furniture",
+      "id": 1756565206589.4248,
+      "turkish": "mobilya",
+      "example": "We need to buy new furniture for the living room."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "painting",
+      "id": 1756565206589.1724,
+      "turkish": "tablo",
+      "example": "That painting is worth a lot of money."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "wall",
+      "id": 1756565206589.6912,
+      "turkish": "duvar",
+      "example": "We're going to paint the wall a new color."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "celebrate",
+      "id": 1756565206589.5815,
+      "turkish": "kutlamak",
+      "example": "We're going to celebrate her birthday with a party."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "nature",
+      "id": 1756565206589.9854,
+      "turkish": "doğal",
+      "example": "I love spending time in nature, away from the city."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "bathing suit",
+      "id": 1756565206589.5889,
+      "turkish": "mayo",
+      "example": "Don't forget to pack your bathing suit for the beach trip."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.589Z",
+      "english": "expensive",
+      "id": 1756565206589.7153,
+      "turkish": "pahalı",
+      "example": "That restaurant is a bit expensive, so we should save up."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "cheap",
+      "id": 1756565206590.6907,
+      "turkish": "ucuz",
+      "example": "I found a very cheap flight to Rome."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "windy",
+      "id": 1756565206590.499,
+      "turkish": "rüzgarlı",
+      "example": "It's too windy to go sailing today."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "famous",
+      "id": 1756565206590.567,
+      "turkish": "ünlü",
+      "example": "The artist is famous for her unique style of painting."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "sweet",
+      "id": 1756565206590.156,
+      "turkish": "tatlı (sıfat)",
+      "example": "The lemonade is very sweet and refreshing."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "crowd",
+      "id": 1756565206590.134,
+      "turkish": "kalabalık",
+      "example": "The concert attracted a huge crowd of people."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "difficult",
+      "id": 1756565206590.0862,
+      "turkish": "zor",
+      "example": "This math problem is too difficult for me to solve."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "glove",
+      "id": 1756565206590.919,
+      "turkish": "eldiven",
+      "example": "I need to wear my winter gloves to keep my hands warm."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "coat",
+      "id": 1756565206590.54,
+      "turkish": "mont",
+      "example": "It's cold outside, so you should wear a coat."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "then",
+      "id": 1756565206590.1296,
+      "turkish": "daha sonra",
+      "example": "First we'll go to the store, and then we'll go to the park."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "thirsty",
+      "id": 1756565206590.0508,
+      "turkish": "susamış",
+      "example": "After the long run, I was very thirsty."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "ski",
+      "id": 1756565206590.1877,
+      "turkish": "kayak",
+      "example": "We're going to a resort where we can ski."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "sled",
+      "id": 1756565206590.2627,
+      "turkish": "kızak",
+      "example": "The children went down the hill on a sled."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "estimate",
+      "id": 1756565206590.7283,
+      "turkish": "tahmin etmek",
+      "example": "I can only estimate how long the trip will take."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "plant",
+      "id": 1756565206590.3203,
+      "turkish": "bitki",
+      "example": "I need to water the plant in the living room."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "tent",
+      "id": 1756565206590.3115,
+      "turkish": "çadır",
+      "example": "We set up our tent by the river."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "sweater",
+      "id": 1756565206590.57,
+      "turkish": "kazak",
+      "example": "It's a little chilly, so I'll put on a sweater."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "blanket",
+      "id": 1756565206590.6287,
+      "turkish": "battaniye",
+      "example": "I wrapped a blanket around myself to stay warm."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "waiter",
+      "id": 1756565206590.2039,
+      "turkish": "garson",
+      "example": "The waiter took our order and brought us our drinks."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "pronoun",
+      "id": 1756565206590.883,
+      "turkish": "zamir",
+      "example": "The word 'he' is a personal pronoun."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "plane",
+      "id": 1756565206590.6719,
+      "turkish": "uçak",
+      "example": "We took a plane to get to our destination."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "plate",
+      "id": 1756565206590.994,
+      "turkish": "tabak",
+      "example": "He put the food on the plate."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "pear",
+      "id": 1756565206590.16,
+      "turkish": "armut",
+      "example": "I had a pear and a banana for a snack."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "appitizer",
+      "id": 1756565206590.5586,
+      "turkish": "meze",
+      "example": "We started our meal with a delicious appetizer."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "divorced",
+      "id": 1756565206590.5342,
+      "turkish": "boşanmış",
+      "example": "My parents got divorced when I was young."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "coast",
+      "id": 1756565206590.7834,
+      "turkish": "sahil",
+      "example": "We drove along the beautiful coast all day."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "improve",
+      "id": 1756565206590.7104,
+      "turkish": "geliştirmek",
+      "example": "I need to improve my English speaking skills."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "acting",
+      "id": 1756565206590.2292,
+      "turkish": "harekete geçmek",
+      "example": "The actress's acting in the movie was superb."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "track",
+      "id": 1756565206590.9912,
+      "turkish": "izlemek",
+      "example": "We need to track our expenses to stay on budget."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "communicate",
+      "id": 1756565206590.7454,
+      "turkish": "iletişim",
+      "example": "It's important to communicate clearly with your team."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.590Z",
+      "english": "accurately",
+      "id": 1756565206590.4546,
+      "turkish": "doğru bir şekilde",
+      "example": "He can throw a ball very accurately."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "scary",
+      "id": 1756565206591.1223,
+      "turkish": "korkutucu",
+      "example": "That movie was really scary."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "campfire",
+      "id": 1756565206591.4858,
+      "turkish": "kamp ateşi",
+      "example": "We sat around the campfire and told stories."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "letter",
+      "id": 1756565206591.9878,
+      "turkish": "mektup",
+      "example": "I received a letter from my old friend."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "bullshit",
+      "id": 1756565206591.3276,
+      "turkish": "saçmalık",
+      "example": "Don't listen to him, that's just bullshit."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "actually",
+      "id": 1756565206591.416,
+      "turkish": "aslında",
+      "example": "I thought he was tired, but he was actually just bored."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "daisy",
+      "id": 1756565206591.816,
+      "turkish": "papatya",
+      "example": "The field was full of beautiful yellow daisies."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "according to",
+      "id": 1756565206591.9507,
+      "turkish": "buna göre",
+      "example": "According to the weather report, it's going to rain tomorrow."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "still",
+      "id": 1756565206591.3442,
+      "turkish": "hala",
+      "example": "It's late, but she's still working."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "guess",
+      "id": 1756565206591.8901,
+      "turkish": "tahmin etmek",
+      "example": "Can you guess how many jelly beans are in the jar?"
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "bring",
+      "id": 1756565206591.3997,
+      "turkish": "getirmek",
+      "example": "Please bring your book to the class."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "vacation",
+      "id": 1756565206591.3506,
+      "turkish": "tatil",
+      "example": "I'm looking forward to my vacation next month."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "usually",
+      "id": 1756565206591.558,
+      "turkish": "genellikle",
+      "example": "I usually have coffee in the morning."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "often",
+      "id": 1756565206591.435,
+      "turkish": "sık sık",
+      "example": "We often go for a walk in the evening."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "indoor",
+      "id": 1756565206591.9292,
+      "turkish": "kapalı mekan",
+      "example": "The swimming pool is indoor, so we can use it all year."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "outdoor",
+      "id": 1756565206591.6135,
+      "turkish": "açık mekan",
+      "example": "We had an outdoor picnic in the park."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "deer",
+      "id": 1756565206591.5186,
+      "turkish": "geyik",
+      "example": "We saw a deer grazing in the field."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "hike",
+      "id": 1756565206591.9905,
+      "turkish": "yürüyüş",
+      "example": "We're going on a long hike this weekend."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "woods",
+      "id": 1756565206591.8572,
+      "turkish": "orman",
+      "example": "The woods are a great place to go for a walk."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "climb",
+      "id": 1756565206591.7227,
+      "turkish": "tırmanmak",
+      "example": "He learned to climb the big tree in his backyard."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "cabin",
+      "id": 1756565206591.837,
+      "turkish": "kabin",
+      "example": "We stayed in a small cabin by the lake."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "goal",
+      "id": 1756565206591.5369,
+      "turkish": "hedef",
+      "example": "My goal is to run a marathon next year."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "fall",
+      "id": 1756565206591.0315,
+      "turkish": "düşmek",
+      "example": "Be careful, don't fall down the stairs."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "invite",
+      "id": 1756565206591.3044,
+      "turkish": "davet etmek",
+      "example": "I want to invite all my friends to my party."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "wear",
+      "id": 1756565206591.058,
+      "turkish": "giymek",
+      "example": "I'm going to wear my new dress tonight."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "tubing",
+      "id": 1756565206591.659,
+      "turkish": "boru",
+      "example": "We went snow tubing down the hill."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "act",
+      "id": 1756565206591.737,
+      "turkish": "davranmak",
+      "example": "She likes to act in school plays."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "artist",
+      "id": 1756565206591.8828,
+      "turkish": "sanatçı",
+      "example": "He's a very talented artist."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "mural",
+      "id": 1756565206591.0679,
+      "turkish": "duvara yapılan resim",
+      "example": "The city commissioned a new mural for the side of the building."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "art",
+      "id": 1756565206591.596,
+      "turkish": "sanat",
+      "example": "I love going to the museum to look at the art."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "stage",
+      "id": 1756565206591.8948,
+      "turkish": "sahne, aşama",
+      "example": "The band walked out onto the stage to perform."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "earring",
+      "id": 1756565206591.4956,
+      "turkish": "küpe",
+      "example": "She wore a beautiful pair of silver earrings."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "schedule",
+      "id": 1756565206591.427,
+      "turkish": "takvim",
+      "example": "My schedule is very busy next week."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "present",
+      "id": 1756565206591.2056,
+      "turkish": "hediye, sunmak",
+      "example": "I need to buy a present for my mom's birthday."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "ticket",
+      "id": 1756565206591.2913,
+      "turkish": "bilet",
+      "example": "I bought a ticket for the concert online."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "farm",
+      "id": 1756565206591.2622,
+      "turkish": "çiftlik",
+      "example": "My grandfather lives on a farm with many animals."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "magazine",
+      "id": 1756565206591.1934,
+      "turkish": "dergi",
+      "example": "I read an interesting article in a magazine."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "sculpture",
+      "id": 1756565206591.6416,
+      "turkish": "heykel",
+      "example": "The artist created a beautiful sculpture out of clay."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "race",
+      "id": 1756565206591.203,
+      "turkish": "yarışk",
+      "example": "I'm training for a marathon race."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "scarf",
+      "id": 1756565206591.8357,
+      "turkish": "atkı",
+      "example": "It's cold outside, so I'm wearing a warm scarf."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "necklace",
+      "id": 1756565206591.4797,
+      "turkish": "kolye",
+      "example": "He bought her a beautiful silver necklace for her birthday."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "bracelet",
+      "id": 1756565206591.5435,
+      "turkish": "bilezik",
+      "example": "She wears a different bracelet every day."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "butter",
+      "id": 1756565206591.038,
+      "turkish": "tereyağı",
+      "example": "Would you like some butter on your toast?"
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "jam",
+      "id": 1756565206591.9888,
+      "turkish": "reçel",
+      "example": "I like to put strawberry jam on my pancakes."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "examination",
+      "id": 1756565206591.0496,
+      "turkish": "muayene, sınav, inceleme",
+      "example": "I have a medical examination scheduled for tomorrow morning."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "circle",
+      "id": 1756565206591.0413,
+      "turkish": "çember",
+      "example": "The children sat in a circle on the floor."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "square",
+      "id": 1756565206591.8542,
+      "turkish": "kare",
+      "example": "A chess board is made up of black and white squares."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "triangle",
+      "id": 1756565206591.0955,
+      "turkish": "üçgen",
+      "example": "A slice of pizza is usually shaped like a triangle."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "glass",
+      "id": 1756565206591.4612,
+      "turkish": "bardak",
+      "example": "He filled his glass with water."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "almost",
+      "id": 1756565206591.9824,
+      "turkish": "neredeyse",
+      "example": "I'm almost finished with my homework."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "fluently",
+      "id": 1756565206591.0906,
+      "turkish": "akıcı şekilde",
+      "example": "She speaks three languages fluently."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "several",
+      "id": 1756565206591.385,
+      "turkish": "birçok",
+      "example": "I have several friends who live in different countries."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "struggle",
+      "id": 1756565206591.6145,
+      "turkish": "çabalamak",
+      "example": "He had to struggle to carry the heavy box."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "nervous",
+      "id": 1756565206591.599,
+      "turkish": "gergin",
+      "example": "I always feel nervous before a big presentation."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "embarressed",
+      "id": 1756565206591.703,
+      "turkish": "utanmış",
+      "example": "I was so embarrassed when I tripped and fell in front of everyone."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "grass",
+      "id": 1756565206591.3057,
+      "turkish": "çimen",
+      "example": "The dog loves to roll around in the grass."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "sausage",
+      "id": 1756565206591.0737,
+      "turkish": "sosis",
+      "example": "We had scrambled eggs and sausage for breakfast."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "cabinet",
+      "id": 1756565206591.0493,
+      "turkish": "dolap",
+      "example": "The plates are in the kitchen cabinet."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "spoon",
+      "id": 1756565206591.9966,
+      "turkish": "kaşık",
+      "example": "I need a spoon to eat my soup."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.591Z",
+      "english": "fork",
+      "id": 1756565206591.7148,
+      "turkish": "çatal",
+      "example": "Could you pass me a fork, please?"
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "growing",
+      "id": 1756565206592.0427,
+      "turkish": "büyümek",
+      "example": "My son is growing so fast."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "collect",
+      "id": 1756565206592.0708,
+      "turkish": "toplamak",
+      "example": "I like to collect stamps from different countries."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "draw",
+      "id": 1756565206592.0393,
+      "turkish": "çizmek",
+      "example": "Can you draw a picture of a cat?"
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "castle",
+      "id": 1756565206592.5706,
+      "turkish": "kale",
+      "example": "We visited an old medieval castle in England."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "curtain",
+      "id": 1756565206592.5017,
+      "turkish": "perde",
+      "example": "Please close the curtains so the room is darker."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "apron",
+      "id": 1756565206592.9976,
+      "turkish": "önlük",
+      "example": "She put on an apron before she started baking."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "yet",
+      "id": 1756565206592.5532,
+      "turkish": "henüz",
+      "example": "I haven't finished my homework yet."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "waitress",
+      "id": 1756565206592.352,
+      "turkish": "bayan garson",
+      "example": "The waitress was very friendly and helpful."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "bowl",
+      "id": 1756565206592.0796,
+      "turkish": "tas, çanak",
+      "example": "He ate his cereal from a bowl."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "discover",
+      "id": 1756565206592.2878,
+      "turkish": "keşfetmek",
+      "example": "I hope to discover a new species of plant someday."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "predict",
+      "id": 1756565206592.8901,
+      "turkish": "tahmin etmek",
+      "example": "It's difficult to predict what will happen in the future."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "surgeon",
+      "id": 1756565206592.7112,
+      "turkish": "cerrah",
+      "example": "The surgeon performed a successful operation."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "other-another",
+      "id": 1756565206592.358,
+      "turkish": "diğer",
+      "example": "I have one more question for you, and then I have an other-another one."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "papkin",
+      "id": 1756565206592.1912,
+      "turkish": "peçete",
+      "example": "Can you pass me a napkin, please?"
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "straw",
+      "id": 1756565206592.9895,
+      "turkish": "pipet",
+      "example": "I drank my soda with a straw."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "salt",
+      "id": 1756565206592.219,
+      "turkish": "tuz",
+      "example": "This dish needs a little more salt."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "pepper",
+      "id": 1756565206592.6504,
+      "turkish": "biber",
+      "example": "I like to add black pepper to my eggs."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "fries",
+      "id": 1756565206592.738,
+      "turkish": "kızartma",
+      "example": "I'll have a hamburger with a side of fries."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "tray",
+      "id": 1756565206592.2148,
+      "turkish": "tepsi",
+      "example": "He carried the drinks on a silver tray."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "expanded",
+      "id": 1756565206592.9858,
+      "turkish": "genişletilmiş",
+      "example": "The company has expanded its business to other countries."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "envelope",
+      "id": 1756565206592.385,
+      "turkish": "mektup",
+      "example": "I put the letter in an envelope and mailed it."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "corporate",
+      "id": 1756565206592.0186,
+      "turkish": "kurumsal",
+      "example": "He works in the corporate office downtown."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "invitation",
+      "id": 1756565206592.0852,
+      "turkish": "davet",
+      "example": "We received an invitation to a wedding."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "be used to",
+      "id": 1756565206592.9636,
+      "turkish": "alışkın olmak",
+      "example": "I'm used to waking up early in the morning."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "used to",
+      "id": 1756565206592.0403,
+      "turkish": "eskiden..",
+      "example": "I used to live in that house when I was a child."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "prepare",
+      "id": 1756565206592.5935,
+      "turkish": "hazırlanmak",
+      "example": "We need to prepare for the big presentation."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "describe",
+      "id": 1756565206592.1548,
+      "turkish": "tanımlamak",
+      "example": "Can you describe the person who stole your wallet?"
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "sheet of paper",
+      "id": 1756565206592.8262,
+      "turkish": "kağıt sayfa",
+      "example": "Please take a clean sheet of paper from the stack."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "scissors",
+      "id": 1756565206592.0916,
+      "turkish": "makas",
+      "example": "I need a pair of scissors to cut this ribbon."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "fame",
+      "id": 1756565206592.6313,
+      "turkish": "şöhret",
+      "example": "The actor achieved international fame after his first movie."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "valley",
+      "id": 1756565206592.0796,
+      "turkish": "vadi",
+      "example": "The small town is located in a beautiful valley."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "road",
+      "id": 1756565206592.5967,
+      "turkish": "yol",
+      "example": "The road to the mountain was long and winding."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "cliff",
+      "id": 1756565206592.3938,
+      "turkish": "uçurum",
+      "example": "We stood on the edge of the cliff and looked at the ocean."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "rock",
+      "id": 1756565206592.2427,
+      "turkish": "kaya",
+      "example": "The climbers scaled the face of the large rock."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "socks",
+      "id": 1756565206592.39,
+      "turkish": "çorap",
+      "example": "I need to put on a pair of warm socks."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "shelf",
+      "id": 1756565206592.582,
+      "turkish": "raf",
+      "example": "I put the books on the top shelf of the bookcase."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "vase",
+      "id": 1756565206592.6436,
+      "turkish": "vazo",
+      "example": "He put the flowers in a beautiful glass vase."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "mirror",
+      "id": 1756565206592.988,
+      "turkish": "ayna",
+      "example": "She looked at herself in the mirror."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "dining room",
+      "id": 1756565206592.6077,
+      "turkish": "yemek odası",
+      "example": "We eat all our meals in the dining room."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "excellent",
+      "id": 1756565206592.1052,
+      "turkish": "harika",
+      "example": "That was an excellent performance by the actor."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "roof",
+      "id": 1756565206592.3843,
+      "turkish": "çatı",
+      "example": "The cat was stuck on the roof of the house."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.592Z",
+      "english": "hallway",
+      "id": 1756565206592.2612,
+      "turkish": "koridor",
+      "example": "He ran down the long hallway to get to his room."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.593Z",
+      "english": "carpet",
+      "id": 1756565206593.8123,
+      "turkish": "halı",
+      "example": "The living room has a soft blue carpet."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.593Z",
+      "english": "sofa",
+      "id": 1756565206593.1812,
+      "turkish": "kanepe",
+      "example": "I fell asleep on the sofa while watching a movie."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.593Z",
+      "english": "closet",
+      "id": 1756565206593.423,
+      "turkish": "dolap",
+      "example": "All my clothes are in the closet."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.593Z",
+      "english": "mug",
+      "id": 1756565206593.6428,
+      "turkish": "kupa bardak",
+      "example": "I drink my coffee from a large mug."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.593Z",
+      "english": "bookshelf",
+      "id": 1756565206593.2534,
+      "turkish": "kitaplık",
+      "example": "The new bookshelf is full of my favorite books."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.593Z",
+      "english": "dresser",
+      "id": 1756565206593.3462,
+      "turkish": "elbise dolabı",
+      "example": "I keep my t-shirts in the top drawer of my dresser."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.593Z",
+      "english": "quiet",
+      "id": 1756565206593.8213,
+      "turkish": "sessizlik",
+      "example": "The library is a very quiet place to study."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.593Z",
+      "english": "yard",
+      "id": 1756565206593.1257,
+      "turkish": "bahçe",
+      "example": "The children are playing in the yard."
+    },
+    {
+      "addedDate": "2025-08-30T14:46:46.593Z",
+      "english": "loud",
+      "id": 1756565206593.4749,
+      "turkish": "yüksek sesle",
+      "example": "The music at the party was too loud."
     }
   ],
-  "exportDate": "2025-08-26T13:29:01.380Z",
+  "exportDate": "2025-09-25T21:05:22.275Z",
   "version": "1.0"
 }
